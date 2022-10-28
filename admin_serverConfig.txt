@@ -1,0 +1,15 @@
+
+--> Inside project file's application.properties
+
+#these are admin server configuration
+
+spring.boot.admin.client.url=http://localhost:9990
+
+management.endpoints.web.exposure.include=*
+management.endpoint.health.show-details=always
+
+
+
+-=> Inside admin-server project
+
+server.port=9990
